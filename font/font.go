@@ -7,14 +7,14 @@
 //
 // Other packages provide font face implementations. For example, a truetype
 // package would provide one based on .ttf font files.
-package font // import "golang.org/x/image/font"
+package font // import "github.com/mantyr/image/font"
 
 import (
 	"image"
 	"image/draw"
 	"io"
 
-	"golang.org/x/image/math/fixed"
+	"github.com/mantyr/image/math/fixed"
 )
 
 // TODO: who is responsible for caches (glyph images, glyph indices, kerns)?

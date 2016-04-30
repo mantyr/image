@@ -6,7 +6,7 @@
 //
 // WEBP is defined at:
 // https://developers.google.com/speed/webp/docs/riff_container
-package webp // import "golang.org/x/image/webp"
+package webp // import "github.com/mantyr/image/webp"
 
 import (
 	"bytes"
@@ -15,9 +15,9 @@ import (
 	"image/color"
 	"io"
 
-	"golang.org/x/image/riff"
-	"golang.org/x/image/vp8"
-	"golang.org/x/image/vp8l"
+	"github.com/mantyr/image/riff"
+	"github.com/mantyr/image/vp8"
+	"github.com/mantyr/image/vp8l"
 )
 
 var errInvalidFormat = errors.New("webp: invalid format")
